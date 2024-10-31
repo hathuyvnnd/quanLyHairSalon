@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="109" passed="87" failed="22" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T07:16:52 ICT" name="Suite (1)" finished-at="2024-08-08T07:16:52 ICT" duration-ms="174">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:52 ICT" name="Test" finished-at="2024-08-08T07:16:52 ICT" duration-ms="174">
+      <class name="test_salon_ui.TestChangePassword">
+        <test-method is-config="true" signature="init()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="init" finished-at="2024-08-08T07:16:52 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="setUp" finished-at="2024-08-08T07:16:52 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="setUp" finished-at="2024-08-08T07:16:52 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCP1()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="testCP1" finished-at="2024-08-08T07:16:52 ICT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCP1 -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="clear" finished-at="2024-08-08T07:16:52 ICT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="setUp" finished-at="2024-08-08T07:16:52 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCP2()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="testCP2" finished-at="2024-08-08T07:16:52 ICT" duration-ms="33" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<123456> but was:<456789>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<123456> but was:<456789>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at test_salon_ui.TestChangePassword.testCP2(TestChangePassword.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCP2 -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="clear" finished-at="2024-08-08T07:16:52 ICT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="setUp" finished-at="2024-08-08T07:16:52 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCP3()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="testCP3" finished-at="2024-08-08T07:16:52 ICT" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<223344> but was:<123456>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<223344> but was:<123456>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
+at test_salon_ui.TestChangePassword.testCP3(TestChangePassword.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCP3 -->
+        <test-method is-config="true" signature="clear()[pri:0, instance:test_salon_ui.TestChangePassword@3b69e7d1]" started-at="2024-08-08T07:16:52 ICT" name="clear" finished-at="2024-08-08T07:16:52 ICT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+      </class> <!-- test_salon_ui.TestChangePassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2024-08-08T07:16:52 ICT" name="Suite (0)" finished-at="2024-08-08T07:16:52 ICT" duration-ms="560">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:52 ICT" name="Test" finished-at="2024-08-08T07:16:52 ICT" duration-ms="560">
+      <class name="test_salon_ui.Test_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="setUp" finished-at="2024-08-08T07:16:52 ICT" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNV1()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV1" finished-at="2024-08-08T07:16:52 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV1 -->
+        <test-method signature="testNV2()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV2" finished-at="2024-08-08T07:16:52 ICT" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [123456] but found [1234567]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [123456] but found [1234567]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test_salon_ui.Test_Login.testNV2(Test_Login.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV2 -->
+        <test-method signature="testNV3()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV3" finished-at="2024-08-08T07:16:52 ICT" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at org.testng.Assert.assertEquals(Assert.java:1077)
+at test_salon_ui.Test_Login.testNV3(Test_Login.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV3 -->
+        <test-method signature="testNV4()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV4" finished-at="2024-08-08T07:16:52 ICT" duration-ms="13" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null
+at test_salon_ui.Test_Login.testNV4(Test_Login.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV4 -->
+        <test-method signature="testNV5()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV5" finished-at="2024-08-08T07:16:52 ICT" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [123456] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [123456] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test_salon_ui.Test_Login.testNV5(Test_Login.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV5 -->
+        <test-method signature="testNV6()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV6" finished-at="2024-08-08T07:16:52 ICT" duration-ms="14" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null
+at test_salon_ui.Test_Login.testNV6(Test_Login.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV6 -->
+        <test-method signature="testNV7()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV7" finished-at="2024-08-08T07:16:52 ICT" duration-ms="15" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null
+at test_salon_ui.Test_Login.testNV7(Test_Login.java:119)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV7 -->
+        <test-method signature="testNV8()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testNV8" finished-at="2024-08-08T07:16:52 ICT" duration-ms="13" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null
+at test_salon_ui.Test_Login.testNV8(Test_Login.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNV8 -->
+        <test-method signature="testQL1()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testQL1" finished-at="2024-08-08T07:16:52 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQL1 -->
+        <test-method signature="testQL2()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testQL2" finished-at="2024-08-08T07:16:52 ICT" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [123456] but found [123456ab]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [123456] but found [123456ab]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test_salon_ui.Test_Login.testQL2(Test_Login.java:157)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQL2 -->
+        <test-method signature="testQL3()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="testQL3" finished-at="2024-08-08T07:16:52 ICT" duration-ms="13" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "salon.entity.NhanVien.getMatKhau()" because "this.nv" is null
+at test_salon_ui.Test_Login.testQL3(Test_Login.java:169)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQL3 -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_salon_ui.Test_Login@18078bef]" started-at="2024-08-08T07:16:52 ICT" name="finish" finished-at="2024-08-08T07:16:52 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_salon_ui.Test_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (9)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="141">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="141">
+      <class name="test_dao.KhachHangDaoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDelete()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="testDelete" finished-at="2024-08-08T07:16:53 ICT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="testSelectById" finished-at="2024-08-08T07:16:53 ICT" duration-ms="19" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__KHACHHAN__0389B7BC35B6167C'. Cannot insert duplicate key in object 'dbo.KHACHHANG'. The duplicate key value is (0123456789).]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__KHACHHAN__0389B7BC35B6167C'. Cannot insert duplicate key in object 'dbo.KHACHHANG'. The duplicate key value is (0123456789).
+at salon.tienich.JdbcHelp.update(JdbcHelp.java:58)
+at salon.Dao.KhachHangDao.insert(KhachHangDao.java:21)
+at test_dao.KhachHangDaoTest.testSelectById(KhachHangDaoTest.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__KHACHHAN__0389B7BC35B6167C'. Cannot insert duplicate key in object 'dbo.KHACHHANG'. The duplicate key value is (0123456789).
+at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:600)
+at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:522)
+at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7225)
+at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3053)
+at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:471)
+at salon.tienich.JdbcHelp.update(JdbcHelp.java:51)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate" finished-at="2024-08-08T07:16:53 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate1()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate1" finished-at="2024-08-08T07:16:53 ICT" duration-ms="24" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[KhachHang should be updated and retrieved. expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: KhachHang should be updated and retrieved. expected object to not be null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.assertNotNull(Assert.java:1484)
+at test_dao.KhachHangDaoTest.testUpdate1(KhachHangDaoTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate1 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhachHangDaoTest@49438269]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- test_dao.KhachHangDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (9) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (8)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="98">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="98">
+      <class name="test_dao.HoaDonDaoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="tearDown" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdate1()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate1" finished-at="2024-08-08T07:16:53 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate1 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="tearDown" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdate2()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate2" finished-at="2024-08-08T07:16:53 ICT" duration-ms="25" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:347)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:337)
+at test_dao.HoaDonDaoTest.testUpdate2(HoaDonDaoTest.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate2 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="tearDown" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.HoaDonDaoTest@302552ec]" started-at="2024-08-08T07:16:53 ICT" name="tearDown" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_dao.HoaDonDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (8) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (7)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="134">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="134">
+      <class name="test_dao.DichVuDaoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetGia()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testGetGia" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetGia -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testSelectById" finished-at="2024-08-08T07:16:53 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectByKeyword()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testSelectByKeyword" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByKeyword -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate" finished-at="2024-08-08T07:16:53 ICT" duration-ms="25" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Advanced hair cut] but found [Nhuộm]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Advanced hair cut] but found [Nhuộm]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test_dao.DichVuDaoTest.testUpdate(DichVuDaoTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate1()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate1" finished-at="2024-08-08T07:16:53 ICT" duration-ms="23" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Advanced hair cut] but found [Nhuộm]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Advanced hair cut] but found [Nhuộm]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test_dao.DichVuDaoTest.testUpdate1(DichVuDaoTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate1 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.DichVuDaoTest@3c9754d8]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- test_dao.DichVuDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (7) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (6)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="28">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="28">
+      <class name="test_dao.CuaHangDaoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.CuaHangDaoTest@4116aac9]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.CuaHangDaoTest@4116aac9]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.CuaHangDaoTest@4116aac9]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.CuaHangDaoTest@4116aac9]" started-at="2024-08-08T07:16:53 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.CuaHangDaoTest@4116aac9]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- test_dao.CuaHangDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (6) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (5)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="101">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="101">
+      <class name="test_dao.ChiTietHoaDonTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDelete()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="testDelete" finished-at="2024-08-08T07:16:53 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="testSelectById" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietHoaDonTest@179ece50]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.ChiTietHoaDonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (5) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (4)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="98">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="98">
+      <class name="test_dao.ChiTietPhieuXuatTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDeleteByMPX()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="testDeleteByMPX" finished-at="2024-08-08T07:16:53 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteByMPX -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="testSelectById" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectByMPX()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="testSelectByMPX" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByMPX -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuXuatTest@233795b6]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.ChiTietPhieuXuatTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (4) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (3)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="100">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="100">
+      <class name="test_dao.ChiTietPhieuNhapTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDeleteByMPN()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="testDeleteByMPN" finished-at="2024-08-08T07:16:53 ICT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteByMPN -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="testSelectById" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectByMPN()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="testSelectByMPN" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByMPN -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiTietPhieuNhapTest@31190526]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.ChiTietPhieuNhapTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (3) -->
+  <suite started-at="2024-08-08T07:16:52 ICT" name="Suite (2)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="130">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:52 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="130">
+      <class name="test_dao.ChiPhiTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:52 ICT" name="setUp" finished-at="2024-08-08T07:16:52 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:52 ICT" name="init" finished-at="2024-08-08T07:16:52 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDelete()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:52 ICT" name="testDelete" finished-at="2024-08-08T07:16:53 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:52 ICT" name="setUp" finished-at="2024-08-08T07:16:52 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="testSelectById" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:53 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate" finished-at="2024-08-08T07:16:53 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.ChiPhiTest@6989da5e]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.ChiPhiTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite (17)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="97">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:54 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="97">
+      <class name="test_dao.sanphamdaotest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUpClass" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="testSelectById" finished-at="2024-08-08T07:16:54 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method signature="testSelectByKeyword()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="testSelectByKeyword" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByKeyword -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectByNhaCungCap()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="testSelectByNhaCungCap" finished-at="2024-08-08T07:16:54 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByNhaCungCap -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate" finished-at="2024-08-08T07:16:54 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.sanphamdaotest@7c9d8e2]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_dao.sanphamdaotest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (17) -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite (18)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="99">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:54 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="99">
+      <class name="test_dao.uudaidaotest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDelete()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="testDelete" finished-at="2024-08-08T07:16:54 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="setUpClass" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSelectByKeyword()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="testSelectByKeyword" finished-at="2024-08-08T07:16:54 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByKeyword -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate" finished-at="2024-08-08T07:16:54 ICT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.uudaidaotest@6f4a47c7]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_dao.uudaidaotest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (18) -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite (13)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="112">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:54 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="112">
+      <class name="test_dao.NhanVienDaoTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testInsert1()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testInsert1" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:347)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:337)
+at test_dao.NhanVienDaoTest.testInsert1(NhanVienDaoTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert1 -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method signature="testInsert3()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testInsert3" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:347)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:337)
+at test_dao.NhanVienDaoTest.testInsert3(NhanVienDaoTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert3 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testSelectById" finished-at="2024-08-08T07:16:54 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testSelectByKeyword()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testSelectByKeyword" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByKeyword -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:54 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate" finished-at="2024-08-08T07:16:54 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testUpdate1()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate1" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:347)
+at org.testng.AssertJUnit.assertNotNull(AssertJUnit.java:337)
+at test_dao.NhanVienDaoTest.testUpdate1(NhanVienDaoTest.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate1 -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testUpdate2()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate2" finished-at="2024-08-08T07:16:54 ICT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate2 -->
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.NhanVienDaoTest@7817fd62]" started-at="2024-08-08T07:16:54 ICT" name="finish" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.NhanVienDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (13) -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite (14)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="61">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:54 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="61">
+      <class name="test_dao.PhieuchiDaoTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectByCuahang()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="testSelectByCuahang" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'mach'.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'mach'.
+at salon.Dao.PhieuchiDao.selectBySql(PhieuchiDao.java:67)
+at salon.Dao.PhieuchiDao.selectbycuahang(PhieuchiDao.java:75)
+at test_dao.PhieuchiDaoTest.testSelectByCuahang(PhieuchiDaoTest.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'mach'.
+at salon.tienich.JdbcHelp.query(JdbcHelp.java:69)
+at salon.Dao.PhieuchiDao.selectBySql(PhieuchiDao.java:54)
+... 31 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'mach'.
+at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:600)
+at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:522)
+at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7225)
+at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3053)
+at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:444)
+at salon.tienich.JdbcHelp.query(JdbcHelp.java:66)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByCuahang -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:54 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.PhieuchiDaoTest@3bd82cf5]" started-at="2024-08-08T07:16:54 ICT" name="finish" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.PhieuchiDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (14) -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite (15)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:54 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="47">
+      <class name="test_dao.phieunhapdaotest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="setUpClass" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="testSelectById" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.UnsupportedOperationException">
+            <message>
+              <![CDATA[Not supported yet.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException: Not supported yet.
+at salon.Dao.PhieuNhapDao.update(PhieuNhapDao.java:35)
+at test_dao.phieunhapdaotest.testUpdate(phieunhapdaotest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsupportedOperationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_dao.phieunhapdaotest@24313fcc]" started-at="2024-08-08T07:16:54 ICT" name="tearDown" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_dao.phieunhapdaotest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (15) -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite (16)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="54">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:54 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="54">
+      <class name="test_dao.phieuxuatdaotest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="setUpClass" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="testSelectById" finished-at="2024-08-08T07:16:54 ICT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:54 ICT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.phieuxuatdaotest@7bedc48a]" started-at="2024-08-08T07:16:54 ICT" name="finish" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.phieuxuatdaotest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (16) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (10)" finished-at="2024-08-08T07:16:53 ICT" duration-ms="139">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:53 ICT" duration-ms="139">
+      <class name="test_dao.KhoDaoTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDelete()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="testDelete" finished-at="2024-08-08T07:16:53 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:53 ICT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="testSelectById" finished-at="2024-08-08T07:16:53 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectByMaCuaHang()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="testSelectByMaCuaHang" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectByMaCuaHang -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:53 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="testUpdate" finished-at="2024-08-08T07:16:53 ICT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.KhoDaoTest@7a8c8dcf]" started-at="2024-08-08T07:16:53 ICT" name="finish" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.KhoDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (10) -->
+  <suite started-at="2024-08-08T07:16:53 ICT" name="Suite (11)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="97">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:53 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="97">
+      <class name="test_dao.LichHenDaoTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:53 ICT" name="init" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDelete()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:53 ICT" name="testDelete" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.UnsupportedOperationException">
+            <message>
+              <![CDATA[Not supported yet.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException: Not supported yet.
+at salon.Dao.LichHenDao.delete(LichHenDao.java:38)
+at test_dao.LichHenDaoTest.testDelete(LichHenDaoTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.UnsupportedOperationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:53 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:53 ICT" name="setUp" finished-at="2024-08-08T07:16:53 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="testSelectById" finished-at="2024-08-08T07:16:54 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:54 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate" finished-at="2024-08-08T07:16:54 ICT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.LichHenDaoTest@2a5c8d3f]" started-at="2024-08-08T07:16:54 ICT" name="finish" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.LichHenDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (11) -->
+  <suite started-at="2024-08-08T07:16:54 ICT" name="Suite (12)" finished-at="2024-08-08T07:16:54 ICT" duration-ms="110">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T07:16:54 ICT" name="Test" finished-at="2024-08-08T07:16:54 ICT" duration-ms="110">
+      <class name="test_dao.NhaCungCapDaoTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="init" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDelete()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="testDelete" finished-at="2024-08-08T07:16:54 ICT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInsert()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="testInsert" finished-at="2024-08-08T07:16:54 ICT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectAll()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="testSelectAll" finished-at="2024-08-08T07:16:54 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAll -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectById()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="testSelectById" finished-at="2024-08-08T07:16:54 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectById -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectBySql()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="testSelectBySql" finished-at="2024-08-08T07:16:54 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectBySql -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUpdate()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="testUpdate" finished-at="2024-08-08T07:16:54 ICT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="setUp" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:test_dao.NhaCungCapDaoTest@2925bf5b]" started-at="2024-08-08T07:16:54 ICT" name="finish" finished-at="2024-08-08T07:16:54 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- test_dao.NhaCungCapDaoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (12) -->
+</testng-results>

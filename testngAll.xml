@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <suite-files>
+    <suite-file path="./testngLogin.xml"></suite-file>
+    <suite-file path="./testngChangePass.xml"></suite-file>
+    <suite-file path="./testngChiPhi.xml"></suite-file>
+    <suite-file path="./testngChiTietPhieuNhap.xml"></suite-file>
+    <suite-file path="./testngChiTietPhioeuXuat.xml"></suite-file>
+    <suite-file path="./testngChiTietrHoaDon.xml"></suite-file>
+    <suite-file path="./testngCuaHang.xml"></suite-file>
+    <suite-file path="./testngDichVu.xml"></suite-file>
+    <suite-file path="./testngHoaDon.xml"></suite-file>
+    <suite-file path="./testngKhachHang.xml"></suite-file>
+    <suite-file path="./testngKho.xml"></suite-file>
+    <suite-file path="./testngLichHen.xml"></suite-file>
+    <suite-file path="./testngNhaCC.xml"></suite-file>
+    <suite-file path="./testngNhanVien.xml"></suite-file>
+    <suite-file path="./testngPhieuChi.xml"></suite-file>
+    <suite-file path="./testngPhieuNhap.xml"></suite-file>
+    <suite-file path="./testngPhieuXuat.xml"></suite-file>
+    <suite-file path="./testngSanPham.xml"></suite-file>
+    <suite-file path="./testngUuDai.xml"></suite-file>
+  </suite-files>
+</suite>
